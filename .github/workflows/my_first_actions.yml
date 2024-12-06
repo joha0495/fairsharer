@@ -26,8 +26,7 @@ jobs:
 
     - name: Lint with Ruff
       run: |
-        pip install ruff
-        ruff src
+        ruff .
 
     - name: Test with pytest
       run: |
